@@ -11,28 +11,4 @@ The difficulties range from easy, medium, and hard. The easy difficulty is built
 ## The Minimax Algorithm
 
 The minimax algorithm uses the scoring system on the connect four by looking into the future over a certain number of iterations, creating a tree over where the algorithm takes the min then the max dependent on who's turn it is. Essentially its trying to make the best move under the assumption the opponent is making there best move.
-
-The tree produced is show below:
-
-graph LR
-A[final] -- Max --> B((2))
-A --> C(("-7"))
-
-C --> D(("-7"))
-C --> E(("3"))
-
-B -- Min --> F(("11"))
-B --> G(("2"))
-
-F -- Max --> H(("-2"))
-F --> I(("11"))
-
-G --> J(("1"))
-G --> K(("2"))
-
-D --> L(("-7"))
-D --> M(("-18"))
-
-E --> N(("-1"))
-E --> O(("3"))
 ```

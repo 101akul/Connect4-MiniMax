@@ -14,7 +14,6 @@ The minimax algorithm uses the scoring system on the connect four by looking int
 
 The tree produced is show below:
 
-```mermaid
 graph LR
 A[final] -- Max --> B((2))
 A --> C(("-7"))
